@@ -1,0 +1,13 @@
+#inlude <stdio.h>
+
+int main () {
+   int hora, minutosTotais;
+
+printf ("Digite a hora atual (0 a 23): ");
+scanf("%d", &hora);
+
+minutos totais = hora * 60;
+
+printf("Ja se passaram %d minutos desde o inicio do dia. \n", minutosTotais);
+ return 0;
+}
